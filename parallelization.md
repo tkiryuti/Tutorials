@@ -28,11 +28,11 @@ pace-getexample launcher
 ### Summary of Launcher usage:
 #### 1. Set 3 different environment variables.
 
-* `${LAUNCHER_SCHED}` is the scheduling method.
+* `${LAUNCHER_SCHED}` is the scheduling method. You must use 'interleaved' if running with multiple nodes. 
 
-* `${LAUNCHER_WORKDIR}` is the working directory.
+* `${LAUNCHER_WORKDIR}` is the working directory. All jobs will start running here.
 
-* `${LAUNCHER_JOB_FILE}` is the file of jobs.
+* `${LAUNCHER_JOB_FILE}` is the file of jobs you need to create. Each line is a separate job. For example, each job may run a script for a different input.
 
 #### 2. Start the jobs by running this command:
 
