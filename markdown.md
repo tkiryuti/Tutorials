@@ -6,8 +6,8 @@ Text:
 
 **bold**
 
-[Link](http://google.com)
+[link to google](http://google.com)
 
-<a href="http://google.com"> Link that opens in new tab </a>
+[link that opens in new tab](http://google.com){:target="_blank"}
 
 Source: https://guides.github.com/features/mastering-markdown/
