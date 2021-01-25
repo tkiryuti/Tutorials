@@ -7,11 +7,13 @@
 ##### h5 (#####)
 ###### h6 (######)
 
-Text:
+regular text
 
 *italic*
+_italic_
 
 **bold**
+__bold__
 
 [link to google](http://google.com)
 
