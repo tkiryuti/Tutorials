@@ -28,15 +28,15 @@ pace-getexample launcher
 ### Summary of Launcher usage:
 #### 1. Set 3 different environment variables.
 
-`${LAUNCHER_SCHED}` is the scheduling method.
+* `${LAUNCHER_SCHED}` is the scheduling method.
 
-`${LAUNCHER_WORKDIR}` is the working directory.
+* `${LAUNCHER_WORKDIR}` is the working directory.
 
-`${LAUNCHER_JOB_FILE}` is the file of jobs.
+* `${LAUNCHER_JOB_FILE}` is the file of jobs.
 
 #### 2. Start the jobs by running this command:
 
-`paramrun`
+* `paramrun`
 
 ## [pylauncher](http://docs.pace.gatech.edu/software/pylauncher/)
 
