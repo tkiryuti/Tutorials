@@ -15,10 +15,17 @@ _italic_
 **bold**
 __bold__
 
+[link to google](http://google.com)
+
 ```bash
 echo "this is Bash code"
 ```
 
-[link to google](http://google.com)
+* unordered
+* list
+  * sub
+  * list
+
+
 
 Source: https://guides.github.com/features/mastering-markdown/
