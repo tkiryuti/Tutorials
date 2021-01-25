@@ -27,7 +27,7 @@ pace-getexample launcher
 
 #### Summary of Launcher usage:
 1. Set 3 different environment variables.
-	* `${LAUNCHER_SCHED}` # Scheduling method.
+	* `${LAUNCHER_SCHED} # Scheduling method.` 
 	* `${LAUNCHER_WORKDIR}` # Working directory. All jobs will start running here.
 	* `${LAUNCHER_JOB_FILE}` # File that you created where each line is a separate job.
 2. Start the jobs by runing this command:
