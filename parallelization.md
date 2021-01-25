@@ -13,3 +13,8 @@
 
 ### Launcher
 
+To see PACE's example of using launcher, run the command below. 
+It will create a directory with an example PBS batch file and a README file with more details.
+```bash
+pace-getexample launcher
+```
