@@ -17,6 +17,8 @@ __bold__
 
 [link to google](http://google.com)
 
+Run the `echo` command.
+
 ```bash
 echo "this is Bash code"
 ```
