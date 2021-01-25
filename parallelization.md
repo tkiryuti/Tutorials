@@ -21,10 +21,17 @@ pace-getexample launcher
 ```
 
 #### Important things to note about Launcher:
-* It is preferred by PACE over using Job Arrays.
+* It is preferred by PACE over using [Job Arrays](#job-arrays).
 * It only supports single-core jobs.
 * It assumes that we are using the same number of cores on each node.
 
+#### Summary of Launcher usage:
+1. Set 3 different environment variables.
+	* `${LAUNCHER_SCHED}`
+	* `${LAUNCHER_WORKDIR}`
+	* `${LAUNCHER_JOB_FILE}`
+2. Start the jobs by runing this command:
+	* `paramrun`
 
 ### [pylauncher](http://docs.pace.gatech.edu/software/pylauncher/)
 
