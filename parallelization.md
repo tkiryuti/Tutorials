@@ -19,6 +19,7 @@ pace-getexample gnu_parallel
 ```
 
 ### Important things to note about GNU Parallel:
+* [Tutorial from the GNU Parallel website](https://www.gnu.org/software/parallel/parallel_tutorial.html)
 * 
 
 ## [Launcher](http://docs.pace.gatech.edu/software/launcher/)
