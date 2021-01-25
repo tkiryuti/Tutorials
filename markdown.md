@@ -28,7 +28,7 @@ echo "this is Bash code"
 
 1. ordered
 1. list
- 1. sub
- 1. list
+  1. sub
+  1. list
 
 Source: https://guides.github.com/features/mastering-markdown/
