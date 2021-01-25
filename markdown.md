@@ -15,6 +15,10 @@ _italic_
 **bold**
 __bold__
 
+```bash
+echo "this is Bash code"
+```
+
 [link to google](http://google.com)
 
 Source: https://guides.github.com/features/mastering-markdown/
