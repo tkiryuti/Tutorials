@@ -6,7 +6,7 @@
 * [Launcher](#launcher)
 * [pylauncher](#pylauncher)
 
-## When to use each type of Parallelization
+# When to use each type of Parallelization
 
 ## [Job Arrays](http://docs.pace.gatech.edu/software/arrayGuide/)
 
