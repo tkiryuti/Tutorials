@@ -10,6 +10,12 @@
 
 ## [Job Arrays](http://docs.pace.gatech.edu/software/arrayGuide/)
 
+### Important things to note about Job Arrays
+* This is a way to submit many jobs at once, and highly preferred over submitting jobs in a loop.
+* There is a limit on the number of jobs queued/running per user ([500](https://blog.pace.gatech.edu/?p=6550) jobs as of Nov 2019), so limit job arrays to containing at most 500 subjobs. Use [Launcher](#launcher) if you wish to go over this limit.
+* Resources specified in the PBS script apply to each individual job, not the entire job array.
+* The entire PBS script you write will run for each indivdual job, so it cannot run serial processes. Run any serial commands (that don't need to be parallelized) before starting a job array or else all the subjobs will try to run the same command. If you would like to run serial tasks within the PBS script and then a parallel step, use other methods below such as [GNU Parallel](#gnu-parallel) or [Launcher](#launcher) for the parallel step.
+
 ## [GNU Parallel](http://docs.pace.gatech.edu/software/multiparallel/)
 
 ### Important things to note about GNU Parallel
